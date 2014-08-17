@@ -16,7 +16,3 @@ class RomanNumerals
 	end
 
 end
-
-(1..1000).to_a.each do |number|
-	RomanNumerals.convert(number)
-end
