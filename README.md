@@ -14,27 +14,23 @@ Technologies used
 
 How to run it
 -------------
-1. Clone the repository:
+Clone the repository:
 ```shell
 git clone git@github.com:michballard/roman-numerals.git
 ```
-
-2. Change into the directory:
+Change into the directory:
 ```shell
 cd roman_numerals
 ```
-
-3. Start IRB:
+Start IRB:
 ```shell
 irb
 ```
-
-4. Within IRB, require the roman numerals file:
+Within IRB, require the roman numerals file:
 ```shell
 require './lib/roman_numerals'
 ```
-
-5. Using the method, RomanNumerals.convert(number), make a request which will then provide a roman numeral response:
+Using the method, RomanNumerals.convert(number), make a request which will then provide a roman numeral response:
 ```shell
 RomanNumerals.convert(5)
 ```
